@@ -48,7 +48,7 @@ public class ManifestDto {
 	private String status = null;
 
 	@JsonProperty("shipments")
-	private List<ShipmentDto> shipments = new ArrayList<ShipmentDto>();
+	private List<ShipmentDto> shipments = new ArrayList<>();
 
 	@JsonProperty("pickUpBookingNumber")
 	private String pickUpBookingNumber = null;

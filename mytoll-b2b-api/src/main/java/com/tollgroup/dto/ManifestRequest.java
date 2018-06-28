@@ -1,9 +1,9 @@
 package com.tollgroup.dto;
 
-public class ShipmentRequest {
+public class ManifestRequest {
 	private String methodType;
 	private Headers headers;
-	private Shipments shipments;
+	private ManifestDto manifestDto;
 
 	public String getMethodType() {
 		return methodType;
@@ -21,11 +21,11 @@ public class ShipmentRequest {
 		this.headers = headers;
 	}
 
-	public Shipments getShipments() {
-		return shipments;
+	public ManifestDto getManifestDto() {
+		return manifestDto;
 	}
 
-	public void setShipments(Shipments shipments) {
-		this.shipments = shipments;
+	public void setManifestDto(ManifestDto manifestDto) {
+		this.manifestDto = manifestDto;
 	}
 }
